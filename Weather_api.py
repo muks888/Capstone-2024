@@ -1,15 +1,14 @@
 # import required modules
 import requests, json
 
-# Enter your API key here
-api_key = "<key>"
+
 
 # importing requests and json
 import requests, json
 # base URL
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 CITY = "Bengaluru"
-API_KEY = "dd48d235472128d3e6589bbe09be2a44"
+API_KEY = "<key>"
 # upadting the URL
 URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY
 # HTTP request
@@ -36,3 +35,11 @@ if response.status_code == 200:
 else:
    # showing the error message
    print("Error in the HTTP request")
+
+
+#Output
+#----------Bengaluru-----------
+#Temperature: 293.1
+#Humidity: 91
+#Pressure: 1009
+#Weather Report: moderate rain
