@@ -48,4 +48,7 @@ for i in holidays:
         print("Today is ",i['summary'])
         break
 
-
+#Output
+#Today date is:  2024-12-01
+#Today date is:  2024-01-01 (For testing date was set to 1st Jan)
+#Today is  New Year's Day
