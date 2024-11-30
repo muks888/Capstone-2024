@@ -26,3 +26,12 @@ print("\nThe total travel time from source  to dest is ", time)
 print("The total travel time from source to dest is ", distance)
 print("\n 17 miles per hours is fast. That is there is no traffic ")
 print("NO")
+
+
+#Output
+# From Domlur to Sarjapur
+#The total travel time from source  to dest is  1 hour 2 mins
+#The total travel time from source to dest is  16.9 mi
+
+#17 miles per hours is fast. That is there is no traffic
+#NO
