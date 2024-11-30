@@ -11,7 +11,6 @@ logging.basicConfig(level=logging.WARNING)
 
 
 
-#GOOGLE_CALENDAR_API_KEY = os.environ.get('GOOGLE_CALENDAR_API_KEY')
 GOOGLE_CALENDAR_API_KEY='<key>'
 if not GOOGLE_CALENDAR_API_KEY:
     raise Exception("The GOOGLE_CALENDAR_API_KEY environment variable is not set.")
