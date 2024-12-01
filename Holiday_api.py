@@ -1,11 +1,7 @@
 import os
-import logging
 import requests
 from datetime import datetime
 from typing import List
-
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.WARNING)
 
 
 
