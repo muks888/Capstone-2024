@@ -1,7 +1,5 @@
 import os
 import logging
-from fastapi import FastAPI, HTTPException
-from fastapi.responses import HTMLResponse, JSONResponse
 import requests
 from datetime import datetime
 from typing import List
