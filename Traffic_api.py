@@ -24,7 +24,7 @@ distance = r.json()["rows"][0]["elements"][0]["distance"]["text"]
 # print the travel time
 print("\nThe total travel time from source  to dest is ", time)
 print("The total travel time from source to dest is ", distance)
-print("\n 17 miles per hours is fast. That is there is no traffic ")
+print("\n 15-20 miles per hour seems to suggest that traffic is less. ")
 print("NO")
 
 
