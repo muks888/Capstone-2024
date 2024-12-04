@@ -6,11 +6,17 @@ api_key ='<key>'
 
 # home address input
 #home = input("Enter a home address\n") 
-home="domlur" 
+home="madiwala" 
+#home="12.92266,77.61736"
+
 # work address input
 #work = input("Enter a work address\n") 
-work="sarjapur" 
+work="Silk Board Bus Stand" 
+##work="12.91682,77.62339"
+
 # base url
+
+
 url = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&"
 
 # get response
@@ -29,7 +35,7 @@ print("NO")
 
 
 #Output
-# From Domlur to Sarjapur
+# From Domlur to Sarjapur works with lat and long also.
 #The total travel time from source  to dest is  1 hour 2 mins
 #The total travel time from source to dest is  16.9 mi
 
