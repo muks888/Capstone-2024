@@ -821,3 +821,28 @@ if __name__ == "__main__":
 make_prediction(input_data = data_in)
 
 
+#### Output
+# Prev is before using api
+# Now is after using api
+
+# weather_prev: 0
+# ------------RANCHI------------
+# Temperature: 281.21
+# Humidity: 66
+# Pressure: 1020
+# Weather Report: mist
+# weather_now: 8
+
+# festival_prev: 0
+# Today date is:  2024-12-15
+# Today date is:  2024-08-15
+# Today is  Parsi New Year
+# festival_now: 1
+
+# road_traffic_density_prev: 2
+# time in hr: 0.18333333333333332
+# distance in km: 3
+# speed: 16
+# road_traffic_density_now: 2
+
+ ####prediction: [30.4909586]
